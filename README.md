@@ -1,5 +1,5 @@
 # execCommand
-
+# (需要root)
 更改 
 ```markdown
      <meta-data
