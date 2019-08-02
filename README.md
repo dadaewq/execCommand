@@ -1,9 +1,9 @@
 # execCommand
 
 更改 
- ##       <meta-data
- ##           android:name="CMD"
- ##           android:value="am force-stop com.tencent.mobileqq" />
+ ###       <meta-data
+ ###          android:name="CMD"
+ ###          android:value="am force-stop com.tencent.mobileqq" />
 中的android:value作为命令执行
 
 得到需要的APP
