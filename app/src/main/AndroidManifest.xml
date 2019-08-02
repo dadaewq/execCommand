@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.modosa.exec.command">
+
+    <application
+        android:label="execCommand"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <meta-data
+            android:name="CMD"
+            android:value="am force-stop com.tencent.mobileqq" />
+
+        <activity
+            android:name=".MainActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
